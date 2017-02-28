@@ -1,8 +1,9 @@
-package com.lorcapp.klean.ui
+package com.jmpergar.klean.ui.activity
 
 import android.os.Bundle
 import android.support.v4.app.Fragment
-import com.lorcapp.klean.R
+import com.jmpergar.klean.R
+import com.jmpergar.klean.ui.presenter.BasePresenter
 
 abstract class SingleFragmentActivity<out T : BasePresenter<U>, U : BasePresenter.View> : BaseActivity<T, U>() {
 

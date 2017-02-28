@@ -1,10 +1,12 @@
-package com.lorcapp.klean.ui
+package com.jmpergar.klean.ui.fragment
 
 import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.view.ViewGroup
 import android.view.LayoutInflater
 import android.view.View
+import com.jmpergar.klean.ui.presenter.BasePresenter
+import com.jmpergar.klean.ui.presenter.PresenterLifecycleLinker
 
 abstract class BaseFragment<out T : BasePresenter<U>, U : BasePresenter.View>
     : Fragment(), PresenterLifecycleLinker.PresenterProvider, BasePresenter.View {

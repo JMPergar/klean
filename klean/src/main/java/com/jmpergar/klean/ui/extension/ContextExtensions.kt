@@ -1,4 +1,4 @@
-package com.lorcapp.klean.ui
+package com.jmpergar.klean.ui.extension
 
 import android.app.Activity
 import android.support.v4.app.Fragment

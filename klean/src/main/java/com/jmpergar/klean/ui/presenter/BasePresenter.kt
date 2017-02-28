@@ -1,4 +1,4 @@
-package com.lorcapp.klean.ui
+package com.jmpergar.klean.ui.presenter
 
 abstract class BasePresenter<T : BasePresenter.View> {
 

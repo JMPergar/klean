@@ -1,4 +1,4 @@
-package com.lorcapp.klean.domain
+package com.jmpergar.klean.domain
 
 import org.funktionale.either.Disjunction
 

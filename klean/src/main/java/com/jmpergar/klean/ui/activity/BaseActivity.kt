@@ -1,7 +1,9 @@
-package com.lorcapp.klean.ui
+package com.jmpergar.klean.ui.activity
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import com.jmpergar.klean.ui.presenter.BasePresenter
+import com.jmpergar.klean.ui.presenter.PresenterLifecycleLinker
 
 abstract class BaseActivity<out T : BasePresenter<U>, U : BasePresenter.View>
     : AppCompatActivity(), PresenterLifecycleLinker.PresenterProvider, BasePresenter.View {
