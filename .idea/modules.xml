@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Klean.iml" filepath="$PROJECT_DIR$/Klean.iml" />
       <module fileurl="file://$PROJECT_DIR$/klean/klean.iml" filepath="$PROJECT_DIR$/klean/klean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kleanexample/kleanexample.iml" filepath="$PROJECT_DIR$/kleanexample/kleanexample.iml" />
     </modules>
   </component>
 </project>
