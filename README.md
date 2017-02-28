@@ -1,4 +1,4 @@
-## KLEAN FRAMEWORK
+## KLEAN FRAMEWORK FOR ANDROID APPS
 
 Set of classes and patterns than are usefuls to develop Android Apps following Clean Architecture.
 
