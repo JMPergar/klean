@@ -11,3 +11,4 @@ This very early project and it's not complete. It's only my way to share my prog
 - Avoid boilerplate
 - Automatize cache system
 - Simplify dependencies injection
+- Improve error management
