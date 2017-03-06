@@ -37,6 +37,9 @@ dependencies {
     compile "org.funktionale:funktionale-either:1.0.0-final"
     compile "org.funktionale:funktionale-validation:1.0.0-final"
 
+    // Third-party dependencies
+    compile "com.squareup.picasso:picasso:2.5.2"
+
     // Test dependencies
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
