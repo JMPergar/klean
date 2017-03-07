@@ -54,17 +54,15 @@ class FeedPresenter(
         }
     }
 
-    private fun renderFeedResult(result: Disjunction<List<GenericExceptions>, List<FeedElement>>) {
-        when (result) {
-            is Disjunction.Left -> manageExceptions(result.swap().get())
-            is Disjunction.Right -> result.map { view?.renderFeed(it) }
-        }
-    }
+    private fun renderFeedResult(result: Disjunction<List<GenericExceptions>, List<FeedElement>>): Any? =
+            when (result) {
+                is Disjunction.Left -> manageExceptions(result.swap().get())
+                is Disjunction.Right -> result.map { view?.renderFeed(it) }
+            }
 
-    private fun manageExceptions(exceptions: List<GenericExceptions>) {
-        when (exceptions[0]) {
-            is GenericExceptions.NetworkError -> view?.renderNetworkError()
-            is GenericExceptions.ServerError -> view?.renderServerError()
-        }
-    }
+    private fun manageExceptions(exceptions: List<GenericExceptions>) =
+            when (exceptions[0]) {
+                is GenericExceptions.NetworkError -> view?.renderNetworkError()
+                is GenericExceptions.ServerError -> view?.renderServerError()
+            }
 }

@@ -18,7 +18,7 @@ class CollectionsFakeDataSource : CollectionsDataSource {
         try {
             val events = getCloseCollections()
             return Disjunction.right(events.map { it -> it.domainObject })
-        } catch (e: Exception) {
+        } catch (e: IOException) {
             return Disjunction.left(GenericExceptions.ServerError())
         }
     }

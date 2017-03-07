@@ -19,7 +19,7 @@ class EventsFakeDataSource : EventsDataSource {
         try {
             val events = getCloseEvents()
             return Disjunction.right(events.map { it -> it.domainObject })
-        } catch (e: Exception) {
+        } catch (e: IOException) {
             return Disjunction.left(GenericExceptions.ServerError())
         }
     }
