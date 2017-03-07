@@ -1,6 +1,6 @@
 package com.jmpergar.kleanexample.domain.events.entity
 
-import java.util.*
+import java.util.Date
 
 data class EventSummary(
         val name: String,

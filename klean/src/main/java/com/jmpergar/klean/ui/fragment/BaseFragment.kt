@@ -2,6 +2,7 @@ package com.jmpergar.klean.ui.fragment
 
 import android.os.Bundle
 import android.support.v4.app.Fragment
+import android.util.Log
 import android.view.ViewGroup
 import android.view.LayoutInflater
 import android.view.View
@@ -49,6 +50,7 @@ abstract class BaseFragment<out T : BasePresenter<U>, U : BasePresenter.View>
      * Override this method to configure your presenter with extra data if needed.
      */
     protected fun onPreparePresenter() {
+        Log.d("BaseFragment", "-> onPreparePresenter (This method can be override but is no needed)")
     }
 
     protected fun initializePresenterLifecycle() {

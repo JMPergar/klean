@@ -26,7 +26,7 @@ val PlaceResponse.domainObject: Place
     get() = Place(name)
 
 private fun getEventType(eventType: String): EventType {
-    when(eventType) {
+    when (eventType) {
         "THEATER" -> return EventType.THEATER
         "MONOLOGUE" -> return EventType.MONOLOGUE
         "MUSICAL" -> return EventType.MUSICAL

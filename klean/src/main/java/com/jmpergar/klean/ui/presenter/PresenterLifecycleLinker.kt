@@ -11,9 +11,6 @@ class PresenterLifecycleLinker {
         initializePresenters()
     }
 
-    /**
-     * Initializes all the already registered presenters lifecycle.
-     */
     private fun initializePresenters() {
         for (presenter in presenters) { presenter.initialize() }
     }

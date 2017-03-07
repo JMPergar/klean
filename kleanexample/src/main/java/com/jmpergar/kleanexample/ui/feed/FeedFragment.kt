@@ -4,7 +4,7 @@ import com.jmpergar.klean.ui.extension.showToast
 import com.jmpergar.klean.ui.fragment.BaseFragment
 import com.jmpergar.kleanexample.R
 
-import kotlinx.android.synthetic.main.fragment_feed.*
+import kotlinx.android.synthetic.main.fragment_feed.messageTextView
 
 class FeedFragment : BaseFragment<FeedPresenter, FeedPresenter.View>(), FeedPresenter.View {
 
