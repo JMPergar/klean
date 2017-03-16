@@ -9,6 +9,7 @@
     android:background="?attr/colorPrimary"
     app:theme="@style/ThemeOverlay.AppCompat.ActionBar"
     tools:ignore="RtlHardcoded"
+    app:layout_scrollFlags="scroll|enterAlways"
     >
 
     <com.mikhaellopez.circularimageview.CircularImageView

@@ -24,7 +24,7 @@ abstract class SingleFragmentActivity<out T : BasePresenter<U>, U : BasePresente
         if (savedInstanceState == null) {
             supportFragmentManager
                     .beginTransaction()
-                    .replace(R.id.fragment_container, initializeFragment(), TAG_FRAGMENT)
+                    .replace(R.id.fragmentContainer, initializeFragment(), TAG_FRAGMENT)
                     .commit()
         }
     }
