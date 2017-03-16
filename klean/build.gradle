@@ -36,6 +36,8 @@ dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     compile "org.funktionale:funktionale-either:1.0.0-final"
     compile "org.funktionale:funktionale-validation:1.0.0-final"
+    compile "com.android.support:design:$support_version"
+    compile 'com.mikhaellopez:circularimageview:3.0.2'
 
     // Third-party dependencies
     compile "com.squareup.picasso:picasso:2.5.2"
