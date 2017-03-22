@@ -37,11 +37,13 @@ dependencies {
     compile "org.funktionale:funktionale-either:1.0.0-final"
     compile "org.funktionale:funktionale-validation:1.0.0-final"
     compile "com.android.support:design:$support_version"
-    compile 'com.mikhaellopez:circularimageview:3.0.2'
+    compile 'org.jetbrains.kotlinx:kotlinx-coroutines-core:0.12'
+    compile "org.jetbrains.kotlinx:kotlinx-coroutines-android:0.13"
 
     // Third-party dependencies
     compile "com.squareup.picasso:picasso:2.5.2"
     compile 'com.github.pedrovgs:lynx:1.0.7'
+    compile 'com.mikhaellopez:circularimageview:3.0.2'
 
     // Test dependencies
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
