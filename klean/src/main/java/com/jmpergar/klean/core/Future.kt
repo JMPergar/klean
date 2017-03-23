@@ -40,7 +40,7 @@ class Future<T> {
         return Future(async(CommonPool) { f(deferred.await()).deferred.await() })
     }
 
-    fun onClomplete(f: (T) -> Unit) {
+    fun onComplete(f: (T) -> Unit) {
         launch(UI) {
             f(deferred.await())
         }
