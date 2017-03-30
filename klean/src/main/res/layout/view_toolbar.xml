@@ -26,6 +26,8 @@
 
     <TextView
         android:id="@+id/toolbarTitle"
+        android:fontFamily="sans-serif-thin"
+        android:textStyle="bold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
