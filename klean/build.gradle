@@ -39,6 +39,7 @@ dependencies {
     compile "com.android.support:design:$support_version"
     compile 'org.jetbrains.kotlinx:kotlinx-coroutines-core:0.12'
     compile "org.jetbrains.kotlinx:kotlinx-coroutines-android:0.13"
+    compile 'com.github.JMPergar:FutureK:v0.12'
 
     // Third-party dependencies
     compile "com.squareup.picasso:picasso:2.5.2"
